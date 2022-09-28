@@ -63,7 +63,7 @@
 
 - git commit -m "Done till "
 
-- git push origin main
+- git push origin master
 
 
 - git status
