@@ -113,7 +113,7 @@
 
 ##### home.dart:
 
-import 'package:flutter/material.dart';
+    import 'package:flutter/material.dart';
 
     class Home extends StatelessWidget {
       const Home({Key? key}) : super(key: key);
@@ -132,7 +132,7 @@ import 'package:flutter/material.dart';
 
 - main function which runs when the flutter app first start fires function 'runnApp(MyApp());' which registers 'MyApp()' as our root widget which is currently 'MaterialApp' widget
 
-- Inside 'MaterialApp' widget we will write 'home wrapper(),' which is saying that the wrapper should be the home screen like this:
+- Inside 'MaterialApp' widget we will write 'home wrapper(),' which is saying that the 'Wrapper' should be the home screen like this:
 
       import 'package:brew_crew/screens/wrapper.dart';
       import 'package:flutter/material.dart';
