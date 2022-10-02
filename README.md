@@ -132,7 +132,7 @@
 
 - main function which runs when the flutter app first start fires function 'runnApp(MyApp());' which registers 'MyApp()' as our root widget which is currently 'MaterialApp' widget
 
-- Inside 'MaterialApp' widget we will write 'home wrapper(),' which is saying that the 'Wrapper' should be the home screen like this:
+- Inside 'MaterialApp' widget we will write 'home: wrapper(),'(press tab so it will automatically import it for you) which is saying that the 'Wrapper' should be the home screen like this:
 
       import 'package:brew_crew/screens/wrapper.dart';
       import 'package:flutter/material.dart';
